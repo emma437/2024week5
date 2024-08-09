@@ -22,7 +22,7 @@
       <main class="main">
         <header>
           <div class="d-flex justify-content-between">
-            <nav class="navbar navbar-expand-lg ms-4 my-3">
+            <nav class="navbar navbar-expand-lg ms-4">
               <div class="container-fluid">
                 <a class="navbar-brand fs-5 fw-bold me-5" href="#"
                   >Assignment</a
@@ -238,105 +238,108 @@
                 </p>
               </div>
             </div>
-
-            <script type="module" src="../main.js"></script>
           </div>
         </div>
 
-        <!-- <a
-        class="btn btn-light btn-outline-success fw-bold rounded-0"
-        data-bs-toggle="collapse"
-        href="#collapseExample"
-        role="button"
-        aria-expanded="false"
-        aria-controls="collapseExample"
+        <div
+          class="d-flex justify-content-between align-items-center position-relative"
         >
-        Mark as read
-      </a> -->
-        <div class="d-flex justify-content-end mt-4 me-5 position-relative">
-          <button
-            type="button"
-            class="btn btn-light btn-outline-success fw-bold rounded-0"
-          >
-            Mark as read
-          </button>
-          <button
-            class="btn btn-light btn-outline-success fw-bold rounded-0 ms-3"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#collapseExample"
-            aria-expanded="false"
-            aria-controls="collapseExample"
-          >
-            Reply
-          </button>
-          <div
-            class="collapse position-absolute bottom-0 end-0 w-75"
-            id="collapseExample"
-          >
-            <div class="card">
-              <div class="card-header">
-                <div class="d-flex align-items-center">
-                  <div class="dropdown">
-                    <button
-                      class="btn dropdown-toggle"
-                      type="button"
-                      data-bs-toggle="dropdown"
-                      aria-expanded="false"
-                    >
-                      Body Text
-                    </button>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                    </ul>
-                  </div>
-                  <div class="d-flex justify-content-evenly w-50">
-                    <span class="material-symbols-outlined"> format_bold </span>
-                    <span class="material-symbols-outlined">
-                      format_italic
-                    </span>
-                    <span class="material-symbols-outlined">
-                      format_list_bulleted </span
-                    ><span class="material-symbols-outlined">
-                      format_list_numbered </span
-                    ><span class="material-symbols-outlined"> image </span>
-                    <span class="material-symbols-outlined"> attachment </span
-                    ><span class="material-symbols-outlined">
-                      chevron_left
-                    </span>
-                    <span class="material-symbols-outlined">
-                      chevron_right
-                    </span>
+          <div class="ms-auto me-auto mt-4">
+            <a href="#" class="me-5"
+              ><span class="material-symbols-outlined"> chevron_left </span>
+            </a>
+            <a href="#"
+              ><span class="material-symbols-outlined"> chevron_right </span></a
+            >
+          </div>
+          <div class="d-flex justify-content-end mt-4 me-5">
+            <button
+              type="button"
+              class="btn btn-light btn-outline-success fw-bold rounded-0"
+            >
+              Mark as read
+            </button>
+            <button
+              class="btn btn-light btn-outline-success fw-bold rounded-0 ms-3"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#collapseExample"
+              aria-expanded="false"
+              aria-controls="collapseExample"
+            >
+              Reply
+            </button>
+            <div
+              class="collapse position-absolute bottom-0 end-0 w-75"
+              id="collapseExample"
+            >
+              <div class="card">
+                <div class="card-header">
+                  <div class="d-flex align-items-center">
+                    <div class="dropdown">
+                      <button
+                        class="btn dropdown-toggle"
+                        type="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        Body Text
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                      </ul>
+                    </div>
+                    <div class="d-flex justify-content-evenly w-50">
+                      <span class="material-symbols-outlined">
+                        format_bold
+                      </span>
+                      <span class="material-symbols-outlined">
+                        format_italic
+                      </span>
+                      <span class="material-symbols-outlined">
+                        format_list_bulleted </span
+                      ><span class="material-symbols-outlined">
+                        format_list_numbered </span
+                      ><span class="material-symbols-outlined"> image </span>
+                      <span class="material-symbols-outlined"> attachment </span
+                      ><span class="material-symbols-outlined">
+                        chevron_left
+                      </span>
+                      <span class="material-symbols-outlined">
+                        chevron_right
+                      </span>
+                    </div>
                   </div>
                 </div>
-              </div>
-              <div class="card-body cb-1">
-                <div class="content text-body-tertiary mt-2 ps-2">
-                  <p>Reply an answer…</p>
+                <div class="card-body cb-1">
+                  <div class="content text-body-tertiary mt-2 ps-2">
+                    <p>Reply an answer…</p>
+                  </div>
                 </div>
-              </div>
-              <div class="ms-auto mb-2 me-2">
-                <button
-                  class="btn btn-light btn-outline-success fw-bold rounded-0 me-3"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseExample"
-                  aria-expanded="false"
-                  aria-controls="collapseExample"
-                >
-                  Cancel
-                </button>
-                <button
-                  type="button"
-                  class="btn btn-light btn-outline-success fw-bold rounded-0"
-                >
-                  Reply
-                </button>
+                <div class="ms-auto mb-2 me-2">
+                  <button
+                    class="btn btn-light btn-outline-success fw-bold rounded-0 me-3"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseExample"
+                    aria-expanded="false"
+                    aria-controls="collapseExample"
+                  >
+                    Cancel
+                  </button>
+                  <button
+                    type="button"
+                    class="btn btn-light btn-outline-success fw-bold rounded-0"
+                  >
+                    Reply
+                  </button>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </main>
     </div>
+    <script type="module" src="../main.js"></script>
   </body>
 </html>
