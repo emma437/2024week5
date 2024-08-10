@@ -1,4 +1,6 @@
-<nav class="header-navbar navbar navbar-expand-lg bg-body-tertiary flex-column">
+<nav
+  class="header-navbar navbar navbar-expand-lg bg-body-tertiary flex-column position-fixed"
+>
   <div class="container-fluid flex-column align-items-start px-0 h-100">
     <div class="w-100">
       <a class="navbar-brand px-2 pt-3" href="#"
@@ -39,8 +41,7 @@
           </li>
           <li class="nav-item">
             <a
-              class="nav-link border-start border-3 border-success text-success fw-bold ps-3"
-              active
+              class="nav-link active border-start border-3 fw-bold ps-3 <%= page === 'assignment' ? 'border-success text-success' : '' %>"
               href="/web-layout-training-vite/pages/index.html"
               ><span class="material-symbols-outlined align-bottom pe-2">
                 assignment </span
@@ -59,7 +60,7 @@
           </li>
           <li class="nav-item">
             <a
-              class="nav-link fw-bold border-start border-white border-3 ps-3"
+              class="nav-link active fw-bold border-start border-3 ps-3 <%= page === 'admin' ? 'border-success text-success' : '' %>"
               href="/web-layout-training-vite/pages/admin.html"
               ><span class="material-symbols-outlined align-bottom pe-2">
                 supervisor_account </span
